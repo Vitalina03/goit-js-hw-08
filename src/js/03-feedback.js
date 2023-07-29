@@ -4,7 +4,7 @@ import '../css/03-feedback.css';
 import '../css/common.css';
 
 const LOCAL_KEY = 'feedback-form-state';
-
+let formData = {};
 const refs = {
   form: document.querySelector('.feedback-form'),
   input: document.querySelector('.feedback-form  input'),
